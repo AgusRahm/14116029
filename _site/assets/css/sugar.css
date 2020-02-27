@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/rentalmobil-c43d4.appspot.com/o/camera.jpg?alt=media&token=2dd3eed9-008d-4745-86c9-aa53075215e1);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 10;
+    position: relative;
+    background-color: aquamarine;
+}
+
+a{
+    text-decoration: none;
+}
+nav ul{
+    max-width: 100%;
+    margin: 10px auto;
+    position: relative;
+    background: white;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+    nav li{
+        display: block;
+        padding: 0 150px;
+    }
+        nav li a{
+            display: block;
+            margin: 10px 0;
+            padding: 10px 50px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        nav li a:hover{
+            background:lightblue;
+            color: #ffffff;
+            transition: 0.5s;
+        }
+
+section{
+    margin-left: 2%;
+    word-break: break-word;
+    padding-top: 15rem;
+}
+section h1{
+        font-family: sans-serif;
+        font-size: 80px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+}
+section h2{
+    color: white;
+}
+p{
+    color: white;
+}
+section .single-box{
+    margin-left: 40%;
+    word-break: break-word;
+    margin-block-start: -150px;
+}
+.single-box{
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    align-self: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 1;
+    text-align: center;
+}
+.header-area.img1{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/rentalmobil-c43d4.appspot.com/o/Agustino.jpg?alt=media&token=0fd8d209-a45d-4375-904e-05f14803db5d");
+}
+.header-area{
+    border-radius: 10px 10px 50% 0;
+    padding: 125px 40px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.body-area{
+    font-family: sans-serif;
+    color:black;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper h1{
+    margin-top: -200;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+.wrapper .box{
+    padding-top: 15px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
