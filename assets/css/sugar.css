@@ -2,46 +2,58 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url("https://firebasestorage.googleapis.com/v0/b/rentalmobil-c43d4.appspot.com/o/camera.jpg?alt=media&token=2dd3eed9-008d-4745-86c9-aa53075215e1");
     background-attachment: fixed;
     background-position: center;
-    background-color: #262626;
+}
+.dark-mode{
+    width: 100%;
+    height: 100%;
+    background: var(--main-bg-color);
+}
+.light {
+    --main-bg-color: #eeeeee;
+    --main-tx-color: #000;
+}
+  
+.dark {
+    --main-bg-color: #000;
+    --main-tx-color: #eeeeee;
 }
 .text{
-    width: 100%;
-    margin-top: 180px;
-    text-transform: uppercase;
     text-align: center;
-    color: #ffffff;
 }
 .text h4{
     font-size: 20px;
+    padding-top: 200px;
     font-family: sans-serif;
+    color: var(--main-tx-color);
 }
 .text h2{
     font-size: 62px;
     font-family: sans-serif;
     font-weight: 700px;
     margin: 12px 0px;
+    color: var(--main-tx-color);
 }
 .text h3{
     font-size: 18px;
     font-family: sans-serif;
+    color: var(--main-tx-color);
 }
 h1{
     text-align: center;
     padding: 20px;
-    color: #ffffff;
+    color: var(--main-tx-color);
     font-family: sans-serif;
-    margin: 60px;
+    margin: 50px;
 }
 .gallery{
     margin: 12px 12px;
     margin-top: -50px;
 }
 .gallery img{
-    width: 350px;
-    padding: 7px 7px;
+    width: 300px;
+    padding: 10px 10px;
     filter: grayscale(100%);
     transition: 0.5s;
 }
@@ -129,14 +141,14 @@ header nav ul li a.active
 }
 section .single-box{
     margin-left: 40%;
-    margin-top: 100px;
+    margin-top: 50px;
     word-break: break-word;
+    background: var(--main-bg-color);
 }
 .single-box{
     flex-direction: column;
     width: 300px;
     height: 400px;
-    background-color: white;
     align-self: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     cursor: pointer;
@@ -156,8 +168,8 @@ section .single-box{
 }
 .body-area{
     font-family: sans-serif;
-    color:black;
     padding: 15px;
     font-weight: bold;
     text-align: center;
+    color: var(--main-tx-color);
 }
